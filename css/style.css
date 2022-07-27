@@ -94,10 +94,18 @@ body {
 }
 .login {
     width: 100px;
+    padding-right: 165px;
+}
+.next {
+    width: 100px;
 }
 .not-button {
     background-color: #ffffff00;
     color: #2b2b2ba7;
+}
+.guest {
+    font-size: 11pt;
+    padding-top: 40px;
 }
 .highlight {
     color: #966B9D;
