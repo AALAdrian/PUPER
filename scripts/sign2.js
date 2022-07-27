@@ -18,7 +18,7 @@ form.addEventListener('submit', function (event) {
                 alert(request.responseText);
             }
         }
-        request.open('POST', 'sign2.php');
+        request.open('POST', 'scripts/sign2.php');
         request.send(formData);
 
         window.location = "sign3.html";

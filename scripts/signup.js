@@ -23,7 +23,7 @@ form.addEventListener('submit',function(event){
 				alert(request.responseText);
 			}
 		}
-		request.open('POST', 'signup.php');
+		request.open('POST', 'scripts/signup.php');
 		request.send(formData);
 
 		window.location = "sign2.html";
