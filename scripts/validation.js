@@ -2,8 +2,6 @@ function validation(mail, student_id) {
     var email = mail;
     var student_num = student_id;
     var data = JSON.parse(sessionStorage.getItem('DB_data'));
-    alert(data[0].email);
-    alert(data[0].student_id);
 
     for (i = 0; i < data.length; i++) {
         var db_email = data[i].email;
@@ -19,7 +17,6 @@ function validation(mail, student_id) {
 function validUsername(name) {
     var userName = name;
     var data = JSON.parse(sessionStorage.getItem('DB_data'));
-    alert(data[0].userName);
 
     for (i = 0; i < data.length; i++) {
         var db_user = data[i].userName;
