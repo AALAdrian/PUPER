@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,900&display=swap');
+* {
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50pt;
+    color: #2B2B2B;
+}
+* h2 {
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 10vh;
+}
+.bidet > h1{
+        font-size: 35pt;
+        text-align: center;
+        padding: 10px 20px;
+    }
+.bidet > input {
+        height: 100px;
+        border-radius: 50%;
+    }
+
+
+/* align */
+.left {
+    /* width: 250px; */
+    margin-left: auto; 
+    margin-right: 0;
+}
+body {
+    background-color: #E7CFBC;
+    height: 100%;
+    /* align-content: center; */
+    padding-top: 12vh;
+}
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-between; */
+    flex-direction: column;
+    /* border-style: dashed; */
+    gap: 10px;
+    /* width: 500px; */
+}
+.sub {
+    /* justify-content: left; */
+    display: flex;
+    align-self: start;
+    /* align-content: ; */
+    flex-direction: row;
+}
+.horizontal {
+    flex-direction: row;
+    width: 290px;
+    /* padding-top: 20px; */
+    justify-content: space-between;
+}
+.txt-input {
+    width: 250px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #FFF4EC;
+}
+.txt-input select {
+    /* display: none; */
+    /* height: 50px; */
+    background-color: #ffffff00;
+    width: 100%;
+    padding: 0;
+}
+.button {
+    /* height: 20px; */
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #C98686;
+    color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+}
+.login {
+    width: 100px;
+}
+.not-button {
+    background-color: #ffffff00;
+    color: #2b2b2ba7;
+}
+.highlight {
+    color: #966B9D;
+    text-decoration: none;
+}
