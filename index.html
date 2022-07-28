@@ -8,34 +8,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PUPer</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script language="JavaScript" type="text/javascript" src="js/GET.js">
+	</script>
 </head>
 
 <body>
-	
-	<form id = "login" action="">
-		<br>
-	<div class="flex-parent">
-		<h1>PUPer</h1>
-		<div>
-			<input class="txt-input" type="text" name="Username" id="nameInput" value="" placeholder="username"/>
-		</div>
-		<div>
-			<input class="txt-input" type="password" name="Password" value="" placeholder="password"/>
-		</div>
-		<div class="flex-parent horizontal">
-			<div>
-				<input class="button next" type="submit" name="submit" value="login"/>
-			</div>
-			<div class="not-button">
-				Not a user? <a href="sign1.html" class="highlight"> Be one! </a>
-			</div>	
-		</div>
-		<div>
-			<a href="homepage.html">Guest</a>
-		</div>
-	</div>
-	</form>
 
+	<form id="login" action="">
+		<br>
+		<div class="flex-parent">
+			<h1>PUPer</h1>
+			<div id="check"></div>
+			<div>
+				<input class="txt-input" type="text" name="Username" id="nameInput" value="" placeholder="username" />
+			</div>
+			<div>
+				<input class="txt-input" type="password" name="Password" id="signupPass" value="" placeholder="password" />
+			</div>
+			<div class="flex-parent horizontal">
+				<div>
+					<input class="button next" type="submit" id="submit" name="submit" value="login" />
+				</div>
+				<div class="not-button">
+					Not a user? <a href="sign1.html" class="highlight"> Be one! </a>
+				</div>
+			</div>
+			<div>
+				<a href="homepage.html">Guest</a>
+			</div>
+		</div>
+	</form>
+	<script language="JavaScript" type="text/javascript" src="js/login.js">
+	</script>
+	<script language="JavaScript" type="text/javascript" src="js/validation.js">
+	</script>
 </body>
 
 </html>

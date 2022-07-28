@@ -18,7 +18,7 @@ form.addEventListener('submit', function (event) {
                 alert(request.responseText);
             }
         }
-        request.open('POST', 'http://192.168.254.111/cordova/sign2.php');
+        request.open('POST', 'http://192.168.254.111/cordova/sign2.php', true);
         request.send(formData);
 
         window.location = "sign3.html";

@@ -27,3 +27,19 @@ function validUsername(name) {
     }
     return true;
 }
+
+function validLogin(name, pass) {
+    var userName = name;
+    var signPass = pass;
+    var data = JSON.parse(sessionStorage.getItem('DB_data'));
+
+    for (i = 0; i < data.length; i++) {
+        var db_user = data[i].userName;
+        var db_pass = data[i].signupPass;
+
+        if (userName == db_user && signPass == db_pass) {
+            return true;
+        }
+    }
+    return false;
+}
