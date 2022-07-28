@@ -16,14 +16,14 @@
     <div class="map flex-parent">
         <div>
             <div class="map-img">
-                <img id="preview" alt="please select floor map">
+                <img id="preview" src="images/map1.svg"  alt="map">
             </div>
         </div>
 
     </div>
     <div class="floor-selector-parent">
         <select class="floor-selector" onchange="document.getElementById('preview').src = this.value">
-            <option value="images/map1.svg">1st</option>
+            <option value="images/map1.svg" selected>GF</option>
             <option value="images/map2.svg">2nd</option>
             <option value="images/map3.svg">3rd</option>
             <option value="images/map4.svg">4th</option>
@@ -37,9 +37,6 @@
         <div class="title">
             CR sa west wing
         </div>
-        <div class="description">
-            description
-        </div>
         <div class="rating">
             <img src="images/star.svg" alt="star" height="24px">
             <img src="images/star.svg" alt="star" height="24px">
@@ -47,14 +44,58 @@
             <img src="images/star.svg" alt="star" height="24px">
             <img src="images/star.svg" alt="star" height="24px">
         </div>
+        <div class="description">
+            Comfort room next to stairs
+            <br>> has bidet
+            <br>> working
+        </div>
         <div class="comments">
             <div class="comment">
                 comment
             </div>
             <div class="comment-user">
                 <div class="profile"></div>
-                <div class="comment-txt">example</div>
+                <div class="comment-box">
+                    <div>
+                        <strong>
+                            USERNAME
+                        </strong> 
+                    </div>
+                    <div class="comment-txt">
+                        GOOD CR
+                        <br>with bidet
+                    </div>
+                </div>
             </div>
+            <div class="comment-user">
+                <div class="profile"></div>
+                <div class="comment-box">
+                    <div>
+                        <strong>
+                            USERNAME
+                        </strong> 
+                    </div>
+                    <div class="comment-txt">
+                        GOOD CR
+                        <br>with bidet
+                    </div>
+                </div>
+            </div>
+            <div class="comment-user">
+                <div class="profile"></div>
+                <div class="comment-box">
+                    <div>
+                        <strong>
+                            USERNAME
+                        </strong> 
+                    </div>
+                    <div class="comment-txt">
+                        GOOD CR
+                        <br>with bidet
+                    </div>
+                </div>
+            </div>
+            <div class="padding"></div>
         </div>
     </div>
 </body>
