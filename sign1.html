@@ -15,10 +15,9 @@
 <body>
     <form id = "form" action="">
         <div class="flex-parent sub">
-            <div id ="check"></div>
             <div class="flex-parent">
-                <h1>PUPer</h1>
-                <span>sign up!</span>
+                <h1 class="unselectable">PUPer</h1>
+                <span class="unselectable">sign up!</span>
                 <div>
                     <input class="txt-input" type="text" id="firstname" name="firstname" value="" placeholder="Name" required>
                 </div>
@@ -35,7 +34,8 @@
                         <option value="female">Female</option>
                     </select>
                 </div>
-                <div class="left">
+                <div class="errorcheck" id ="check"></div>
+                <div class="left unselectable">
                     <input class="button login" type="button" value="login">
                     <input class="button next" type="submit" id="submit" name="submit" value="next">
                 </div>

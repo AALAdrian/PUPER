@@ -15,9 +15,8 @@
 <body>
     <form id = "form" action="">
         <div class="flex-parent sub">
-                        <div class="flex-parent">
-                <h1>PUPer</h1>
-                <div id="check"></div>
+            <div class="flex-parent">
+                <h1 class="unselectable">PUPer</h1>
                 <span>sign up!</span>
                 <div>
                     <input class="txt-input" type="text" name="Username" id="nameInput" value="" placeholder="username" required />
@@ -25,8 +24,9 @@
                 <div>
                     <input class="txt-input" type="password" id="signupPass" name="Password" value="" placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Password should be 8 or more characters and have at least one uppercase and lowercase letter" required />
                 </div>
+                <div class="errorcheck unselectable" id="check"></div>
                 <div class="left">
-                    <input class="button login" type="submit" id="submit_2" name="submit" value="next" />
+                    <input class="button next" type="submit" id="submit_2" name="submit" value="next" />
                 </div>
             </div>
         </div>

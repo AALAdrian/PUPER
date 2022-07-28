@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: #FFF4EC;
     padding: 0;
@@ -12,6 +13,9 @@ body {
     margin: 0;
     background-color: #E7CFBC;
     height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .sticky{
     top: 0;
@@ -25,6 +29,11 @@ body {
     text-align: center;
     height: 100%;
     line-height: 64px;
+    margin-left: 40px;
+}
+.user {
+    margin-left: 20px;
+    margin-right: auto;
 }
 .map {
     position: fixed;
