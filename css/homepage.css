@@ -47,8 +47,8 @@ body {
     text-align: center;
     width: 100%;
 }
-.map-img {
-    width: 100vw;
+.map-img img {
+    width: auto;
     max-height: 60vh;
 }
 .floor-selector-parent {

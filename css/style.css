@@ -19,6 +19,12 @@
     font-style: italic;
     font-size: 50pt;
     color: #2B2B2B;
+    margin: 0;
+    line-height: 1;
+}
+h1.smaller{
+    font-size: 30pt;
+    padding-top: 40px;
 }
 * h2 {
     font-weight: 900;
@@ -29,6 +35,7 @@
         font-size: 35pt;
         text-align: center;
         padding: 10px 20px;
+        line-height: 1.25;
     }
 .bidet > input {
         height: 100px;
@@ -92,7 +99,7 @@ body {
     background-color: #C98686;
     color: #ffffff;
     border: 0;
-    border-radius: 20px;
+    border-radius: 30px;
     transition-duration: 0.4s;
 }
 .button:hover {
@@ -102,8 +109,10 @@ body {
 }
 .login {
     width: 100px;
-    padding-right: 165px;
+    padding-right: 130px;
     background-color: #966B9D;
+    text-align: center;
+    text-decoration: none;
 }
 .next {
     width: 100px;
@@ -125,10 +134,20 @@ body {
     width: 290px;
     text-align: center;
     /* position: fixed; */
-    background-color: red;
+    background-color: rgb(140, 0, 0);
     margin: 0;
     padding: 0;
     border-radius: 50px;
     font-size: .75rem;
     font-weight: bold;
+}
+.note  {
+    width: 260px;
+    text-align: justify;
+    padding: 0 10px 0 10px;
+    font-size: small;
+    line-height: 1.2;
+}
+.padding {
+    padding-top: 10vh;
 }
