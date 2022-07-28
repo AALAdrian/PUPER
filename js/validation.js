@@ -36,7 +36,8 @@ function validLogin(name, pass) {
     for (i = 0; i < data.length; i++) {
         var db_user = data[i].userName;
         var db_pass = data[i].signupPass;
-
+        var db_studid = data[i].student_id;
+        sessionStorage.setItem('student_id', db_studid);
         if (userName == db_user && signPass == db_pass) {
             return true;
         }
