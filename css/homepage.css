@@ -73,6 +73,7 @@ body {
     background-color: #966B9D;
     color: white;
     font-size: 24px;
+    box-shadow: 0 0 20px -4px rgba(0, 0, 0, 0.338);
 }
 .sheet {
     background-color: #E7CFBC;
@@ -126,7 +127,7 @@ body {
 .comment-user .profile {
     height: 40px;
     width: 40px;
-    background-color: red;
+    background-color: rgb(241, 236, 182);
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -143,4 +144,56 @@ body {
 }
 .padding {
     padding-bottom: 50px;
+}
+.cr-select {
+    width: auto;
+    max-height: 60vh;
+    justify-content: flex-start;
+    width: 100vw;
+}
+.cr-select > div {
+    background-color: #6b9d7300;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cr {
+    position: absolute;
+    z-index: 400;
+}
+.cr input{
+    display: none;
+    width: 20px;
+}
+.cr label div{
+    width: 9vh;
+    height: 9vh;
+    background-color: #966b9d00;
+    position: relative;
+
+}
+/* debugging */
+.cr input:checked + label>div{
+    /* color: red; */
+    background-color: rgb(253, 0, 0);
+}
+.cr-select img {
+    width: auto;
+    max-height: 60vh;
+    opacity: 0%;
+}
+.northcr {
+    right: -28.3869vh !important; 
+    bottom: -15.2355vh !important;
+}
+.eastcr{
+    top: 20.3743vh !important; 
+    left: 31.6459vh !important;
+}
+.westcr{
+    top: 6.20535vh !important; 
+    left: 18.3494vh !important;
+}
+.feed {
+    margin-top: 0;
+    padding-top: 0;
 }
