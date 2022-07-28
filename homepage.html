@@ -28,20 +28,21 @@
 
     </div>
     <div class="floor-selector-parent">
-        <div class="cr-select map flex-parent">
+        <!-- <div class="cr-select map flex-parent">
             <div>
                 <div class="cr">
-                    <input type="radio" name="3rd" id="3rdN">
+                    <input type="radio" name="3rd" id="3rdN" class="northcr">
                     <label for="3rdN"><div class="northcr"></div></label>
-                    <input type="radio" name="3rd" id="3rdE" >
+                    <input type="radio" name="3rd" id="3rdE" class="eastcr">
                     <label for="3rdE"><div class="eastcr"></div></label>
-                    <input type="radio" name="3rd" id="3rdW">
+                    <input type="radio" name="3rd" id="3rdW" class="westcr">
                     <label for="3rdW"><div class="westcr"></div></label>
                 </div>
                 <img id="preview" src="images/map1.png"  alt="map">
             </div>
-        </div>
-        <select class="floor-selector" onchange="document.getElementById('preview').src = this.value">
+        </div> -->
+        <select class="floor-selector" onchange="document.getElementById('preview').src = this.value; 
+        document.getElementById('floor123').textContent = this.options[this.selectedIndex].text;" >
             <option value="images/map1.png" selected>GF</option>
             <option value="images/map2.png">2nd</option>
             <option value="images/map3.png">3rd</option>
@@ -51,10 +52,14 @@
         </select>
     </div>
     <div class="bottom sheet">
-        
         <div class="line"></div>
         <div class="title">
-            <span>Cr sa west wing</span>
+            <H2 class="feed">
+                FEEDBACK in <a id="floor123">GF</a>
+            </H2>
+        </div>
+        <div class="title">
+            <span>CR IN WEST WING</span>
         </div>
         <div class="rating">
             <img src="images/star.svg" alt="star" height="24px">
@@ -77,40 +82,77 @@
                 <div class="comment-box">
                     <div>
                         <strong>
-                            USERNAME
+                            Armi
                         </strong> 
                     </div>
                     <div class="comment-txt">
                         GOOD CR
                         <br>with bidet
+                        <br>better than starbucks
                     </div>
                 </div>
             </div>
+            <div class="title">
+                <span>CR IN NORTH WING</span>
+            </div>
+            <div class="rating">
+                <img src="images/star.svg" alt="star" height="24px">
+                <img src="images/star.svg" alt="star" height="24px">
+                <img src="images/star.svg" alt="star" height="24px">
+                <img src="images/star.svg" alt="star" height="24px">
+            </div>
+            <div class="description">
+                Comfort room next to stairs
+                <br>> only dipper and pail
+                <br>> working
+                <br>> no doors
+            </div>
+            <div class="comments">
+                <div class="comment">
+                    comment
+                </div>
             <div class="comment-user">
                 <div class="profile"></div>
                 <div class="comment-box">
                     <div>
                         <strong>
-                            USERNAME
+                            Dimayuga
                         </strong> 
                     </div>
                     <div class="comment-txt">
-                        GOOD CR
-                        <br>medyo mabaho
+                        may tubig!!!!!
+                        <br>jolibee could never!
                     </div>
                 </div>
             </div>
+            <div class="title">
+                <span>CR IN SOUTH WING</span>
+            </div>
+            <div class="rating">
+                <img src="images/star.svg" alt="star" height="24px">
+                <img src="images/star.svg" alt="star" height="24px">
+                <img src="images/star.svg" alt="star" height="24px">
+            </div>
+            <div class="description">
+                Comfort room next to stairs
+                <br>> working
+                <br>> only half is available
+                <br>> crowded
+            </div>
+            <div class="comments">
+                <div class="comment">
+                    comment
+                </div>
             <div class="comment-user">
                 <div class="profile"></div>
                 <div class="comment-box">
                     <div>
                         <strong>
-                            USERNAME
+                            Pooper2000
                         </strong> 
                     </div>
                     <div class="comment-txt">
-                        GOOD CR
-                        <br>amoy yosi
+                        amoy yosi
                     </div>
                 </div>
             </div>

@@ -73,6 +73,7 @@ body {
     background-color: #966B9D;
     color: white;
     font-size: 24px;
+    box-shadow: 0 0 20px -4px rgba(0, 0, 0, 0.338);
 }
 .sheet {
     background-color: #E7CFBC;
@@ -126,7 +127,7 @@ body {
 .comment-user .profile {
     height: 40px;
     width: 40px;
-    background-color: red;
+    background-color: rgb(241, 236, 182);
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -191,4 +192,8 @@ body {
 .westcr{
     top: 6.20535vh !important; 
     left: 18.3494vh !important;
+}
+.feed {
+    margin-top: 0;
+    padding-top: 0;
 }
