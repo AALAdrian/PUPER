@@ -16,19 +16,23 @@
     <div class="map flex-parent">
         <div>
             <div class="map-img">
+<<<<<<< Updated upstream
                 <img src="images/map36.svg" alt="map">
+=======
+                <img id="preview" alt="please select floor map">
+>>>>>>> Stashed changes
             </div>
         </div>
 
     </div>
     <div class="floor-selector-parent">
-        <select class="floor-selector">
-            <option value="1">1st</option>
-            <option value="2">2nd</option>
-            <option value="3">3rd</option>
-            <option value="4">4th</option>
-            <option value="5">5th</option>
-            <option value="6">6th</option>
+        <select class="floor-selector" onchange="document.getElementById('preview').src = this.value">
+            <option value="images/map1.svg">1st</option>
+            <option value="images/map2.svg">2nd</option>
+            <option value="images/map3.svg">3rd</option>
+            <option value="images/map4.svg">4th</option>
+            <option value="images/map5.svg">5th</option>
+            <option value="images/map6.svg">6th</option>
         </select>
     </div>
     <div class="bottom sheet">
